@@ -5,11 +5,13 @@ import { faTwitter,
   faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function Footer() {
     return (
-        <footer>
+        <footer className="icon-container">
+            <div className="icons">
                     <FontAwesomeIcon icon={faTwitter} />
                     <FontAwesomeIcon icon={faInstagram} />
                     <FontAwesomeIcon icon={faFacebook} />
                     <FontAwesomeIcon icon={faGithub} />
+            </div>    
         </footer>
     )
 }

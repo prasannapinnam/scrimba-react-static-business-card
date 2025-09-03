@@ -1,42 +1,66 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.main-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 2rem 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.role {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color: #F3BF99;
+  font-style: normal;
+  padding-top: 0.2rem ;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mail-id{
+font-weight: 400;
+font-size: 0.64rem;
+color: #F5F5F5;
+padding: 0.7rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.social-media-btns{
+  width: 15.4rem;
+  display: flex;
+  justify-content: space-between;
 }
 
-.card {
-  padding: 2em;
+button {
+  width: 7.18rem ;
+  height: 2.12rem;
+  border-radius: 0.37rem;
+  border: none;
+font-weight: 500;
+font-size: 14px;
 }
 
-.read-the-docs {
-  color: #888;
+.linkedin-btn {
+  background-color: #5093E2;
+  color: var(--white);
+}
+
+.envelop-icon {
+  font-size: 0.8rem;
+}
+
+.articles{
+  width: 15.4rem;
+}
+
+.section-heading{
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.section-content{
+font-weight: 400;
+font-size: 10.24px;
+line-height: 150%;
+color: #DCDCDC;
+margin-bottom: 0.5rem;
 }

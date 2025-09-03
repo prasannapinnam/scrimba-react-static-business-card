@@ -6,8 +6,7 @@ export default function BusinessCard() {
     return (
         <div className="card-wrapper">
             <div className="card">
-                <section>
-                    <img src="public/person.png" alt="business card owner" />
+                <section className='image-container'>
                 </section>
                 <main>
                     <MainDetails />

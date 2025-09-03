@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 export default function SocialMediaBtns() {
     return (
          <div className="social-media-btns">
-                            <button><FontAwesomeIcon icon={faLinkedin} /> <span>LinkedIn</span></button>
-                            <button><FontAwesomeIcon icon={faEnvelope} /> <span>Email</span></button>
-                        </div>
+                            <button><FontAwesomeIcon icon={faEnvelope} className="envelop-icon"/> <span>Email</span></button>
+                            <button className="linkedin-btn"><FontAwesomeIcon icon={faLinkedin} /> <span>LinkedIn</span></button>
+         </div>
     )
 }
